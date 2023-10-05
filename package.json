@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "This the Food ordering application",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+    
   },
   "author": "Rahul",
   "license": "ISC",
