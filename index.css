@@ -1,3 +1,8 @@
+*{
+    font-family: sans-serif;
+    
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -9,9 +14,14 @@
     margin-top: 50px;
 }
 
-.nav-items >ul >li{
+.nav-items Link{
+    text-decoration: none;
+}
+
+.nav-items >ul > li{
     list-style-type: none;
     padding: 10px;
+    
 }
 
 a > .logo{
@@ -51,4 +61,13 @@ a > .logo{
     width: 150px;
     height: 50px;
     margin-top: 5px;
+}
+
+
+.restaurant-menu{
+    display: flex;
+}
+
+.restaurant-info{
+    margin: 10px;
 }
